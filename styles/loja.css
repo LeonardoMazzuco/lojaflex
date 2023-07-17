@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:"HARRY" ;
+    src: url('WizardWorld.ttf');
+    font-weight: normal;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 5px;
+    align-items: center;
+    list-style: none;
+    margin: 5px;
+    color: white;
+}
+  
+.imagem-principal{
+    margin-left: 37px;
+    padding: 0px;
+    display: flex;
+
+}
+
+.background{
+    background-color: #000000 ;
+}
+.colecao{
+    color:#AC9206;
+    text-align: center;
+    font-family:cursive;
+}
+.lançamentos{
+
+}
+.lançamentos .lançamentos__title{
+    color:#AC9206;
+    padding: 10px;
+    margin: 10px 0px 0px 18px;
+    
+}
+.lançamentos .lançamentos__produtos{
+    color:#AC9206;
+    display:  flex;
+    justify-content: space-around;
+    
+}
+.camisetas{
+    
+}
+.camisetas .camisetas__title{
+    color:#AC9206;
+    padding: 10px;
+    margin: 10px 0px 0px 18px;
+}
+
+.camisetas .camisetas__produtos{
+    color:#AC9206;
+    display:  flex;
+    justify-content: space-around;
+}
+.canecas{
+    
+}
+.canecas .canecas__title{
+    color:#AC9206;
+    padding: 10px;
+    margin: 10px 0px 0px 18px;
+}
+.canecas  .canecas__produtos{
+    color:#AC9206;
+    display:  flex;
+    justify-content: space-around;
+}
+.acessorios{
+
+}
+.acessorios .acessorios__title{
+    color:#AC9206;
+    padding: 10px;
+    margin: 10px 0px 0px 18px;
+}
+.acessorios .acessorios__produtos{
+    color:#AC9206;
+    display:  flex;
+    justify-content: space-around;
+}
+
+.variedades{
+
+}
+.variedades .variedades__title{
+    color:#AC9206;
+    padding: 10px;
+    margin: 10px 0px 0px 18px;
+}
+.variedades .variedades__produtos{
+    color:#AC9206;
+    display:  flex;
+    justify-content: space-around;
+}
+
+
+.comprar{
+    color: #AC9206;
+    background-color: #1E293B;
+    width: 122px;
+    height: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+button{
+    list-style: none;
+    margin-left: 175px;
+    margin-bottom: 5px;
+}
+
+.preço{
+    color: white;
+}
+.caixa-produto{
+    width: 306px;
+    height: 538px;
+    border: 2px solid #AC9206;
+    padding: 10px 10px 10px 20px;
+    
+}
+
+.menu-inferior{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 5px;
+    align-items: center;
+    list-style: none;
+    margin: 5px;
+    color: white;
+}

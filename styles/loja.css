@@ -25,8 +25,8 @@
 
 .colecao{
     display: flex;
-    text-decoration: #AC9206;
-    background-image: url("../Imagens-HarryPotter/vector1.png");
+    color: #AC9206;
+    /* background-image: url("../Imagens-HarryPotter/vector1.png"); */
     width: 1100px;
     align-items: center;
     text-align: center;

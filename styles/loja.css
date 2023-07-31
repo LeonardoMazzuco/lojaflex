@@ -1,15 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 .background{
     background-color: #000000 ;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
+.navbar-brand{
+    padding: 10px;
+    margin: 0px;
+}
+.nav-item{
+    padding: 20px;
+    
+   
+}
+.nav-item:hover {
+    text-decoration: underline white;
+  }
+  
+
 .menu{
     display: flex;
-    justify-content: space-around;
-    font-size: 22px;
+    justify-content:space-evenly;
+    font-size: 18px;
     padding: 5px;
     list-style: none;
     margin: 5px;
@@ -17,21 +32,24 @@
 }
 
 .imagem-principal{
-    margin-left: 37px;
     padding: 0px;
     display: flex;
+    justify-content: center;
 }
 
 
 .colecao{
     display: flex;
-    color: #AC9206;
-    /* background-image: url("../Imagens-HarryPotter/vector1.png"); */
-    width: 1100px;
+    color: black;
+    background-image: url("../Imagens-HarryPotter/vector1.png");
+    width: 1090px;
+    height: 50px;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin: auto;
+    font-family: Wizard World;
+    font-size: 28px;
 }
 
 .lancamentos .lancamentos__title{
@@ -41,6 +59,8 @@
     border-bottom: solid 2px #AC9206;
     margin-bottom: 20px;
     width: 280px;
+    font-family: Wizard World;
+    font-size: 20px;
 }
 .lancamentos .lancamentos__produtos{
     color:#AC9206;
@@ -56,6 +76,8 @@
     border-bottom: solid 2px #AC9206;
     margin-bottom: 20px;
     width: 280px;
+    font-family: Wizard World;
+    font-size: 20px;
 }
 
 .camisetas .camisetas__produtos{
@@ -71,6 +93,8 @@
     border-bottom: solid 2px #AC9206;
     margin-bottom: 20px;
     width: 280px;
+    font-family: Wizard World;
+    font-size: 20px;
 }
 .canecas  .canecas__produtos{
     color:#AC9206;
@@ -85,6 +109,8 @@
     border-bottom: solid 2px #AC9206;
     margin-bottom: 20px;
     width: 280px;
+    font-family: Wizard World;
+    font-size: 20px;
 }
 .acessorios .acessorios__produtos{
     color:#AC9206;
@@ -100,6 +126,8 @@
     border-bottom: solid 2px #AC9206;
     margin-bottom: 20px;
     width: 280px;
+    font-family: Wizard World;
+    font-size: 20px;
 }
 .variedades .variedades__produtos{
     color:#AC9206;
@@ -140,6 +168,7 @@ button{
     text-align: center;
     padding-top: 4px;
     justify-content: space-around;
+    font-family: DM Sans;
 }
 
 .menu-inferior{
@@ -152,4 +181,27 @@ button{
     margin: 5px;
     color: white;
 }
+
+hr {
+    justify-content: center;
+    width: 80%;
+    margin-top: 20px;
+    background: white;
+    margin: auto;
+  }
+
+.navBarFooter__copyright {
+    background: black;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .navBarFooter__copyright p {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    text-align: center;
+    font-family: DM Sans;
+  }
 
